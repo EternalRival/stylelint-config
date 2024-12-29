@@ -1,0 +1,30 @@
+{
+  "name": "@eternalrival/stylelint-config",
+  "version": "0.1.2",
+  "description": "shared stylelint config",
+  "main": "index.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/EternalRival/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint-config"
+  ],
+  "author": "eternalrival",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EternalRival/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/EternalRival/stylelint-config#readme",
+  "peerDependencies": {
+    "stylelint": "^16.12.0"
+  },
+  "dependencies": {
+    "stylelint-config-clean-order": "^6.1.0",
+    "stylelint-config-css-modules": "^4.4.0",
+    "stylelint-config-standard": "^36.0.1"
+  }
+}
